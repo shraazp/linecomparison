@@ -24,8 +24,10 @@ public class LineComparisonBuilder {
 		System.out.println("The length of the line2  is "+length2);
 		if(length1==length2)
 			System.out.println("The lines are equal!!!");
+		else if(length1>length2)
+			System.out.println("line1 is greater than line2!!!");
 		else
-			System.out.println("The lines are not equal!!!");
+			System.out.println("Line1 is smaller than line2");
 		sc.close();
 	}
 
